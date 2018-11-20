@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:zadan"
+             x:Class="zadan.MainPage"
+             MasterBehavior="Popover">
+
+    <MasterDetailPage.Master>
+        <ContentPage  Title="Home">
+            <ContentPage.Content>
+                <StackLayout BackgroundColor="#1A1A24">
+                    <Label FontFamily="{StaticResource NormalFont}" Text="Menu" Margin="5,10,5,20" TextColor="white" FontSize="30" HorizontalTextAlignment="Center"></Label>
+                    <Picker Margin="5" x:Name="picker" TextColor="white" HorizontalOptions="FillAndExpand"
+                        Title="Vyberte zameranie" SelectedIndexChanged="OnPickerSelectedIndexChanged" BackgroundColor="#2B5F8C">
+                        <Picker.Items>
+                        </Picker.Items>
+                    </Picker>
+                    <Button FontFamily="{StaticResource NormalFont}" Margin="5" BorderColor="#F5B74D" Text="Úvodná stránka" BackgroundColor="#2B5F8C" TextColor="White" Clicked="Handle_Home"></Button>
+                    <Button FontFamily="{StaticResource NormalFont}" Margin="5" BorderColor="#F5B74D" Text="Termíny" BackgroundColor="#2B5F8C" TextColor="White" Clicked="Handle_Clicked1"></Button>
+                    <Button FontFamily="{StaticResource NormalFont}" Margin="5" BorderColor="#F5B74D" Text="Novinky" BackgroundColor="#2B5F8C" TextColor="White" Clicked="Handle_Clicked2"></Button>
+                    <Button FontFamily="{StaticResource NormalFont}" Margin="5" BorderColor="#F5B74D" Text="Pre Informatikov" BackgroundColor="#2B5F8C" TextColor="White" Clicked="Handle_Clicked3"></Button>
+                    <Image Margin="5,110,5,5" HorizontalOptions="FillAndExpand" Source="http://uamt.fei.stuba.sk/MVI/sites/default/files/logo%20final.png" BackgroundColor="#004466" HeightRequest="80" />
+                </StackLayout>
+            </ContentPage.Content>
+        </ContentPage>
+    </MasterDetailPage.Master>
+    <MasterDetailPage.Detail>
+        <ContentPage Title="Vitajte!">
+            <ContentPage.Content>
+                <Grid>
+                    <Image Aspect="AspectFill" x:Name="BGImageLogin" Source="background.jpg" />
+                    <StackLayout Margin="20">
+                        <Label FontFamily="{StaticResource NormalFont}" x:Name="label1" TextColor= "White"  FontAttributes="Italic,Bold"  FontSize="50" Text="Vitajte" HorizontalOptions="Center" HorizontalTextAlignment="Center" ></Label>
+                        <Label FontFamily="{StaticResource NormalFont}" x:Name="label2" Margin="0,0,0,15" TextColor= "#BC2D19"  FontAttributes="Italic,Bold"  FontSize="25" Text="Inteligentné mechatronické systémy"  HorizontalTextAlignment="Center"></Label>
+                        <Frame BackgroundColor="Transparent" BorderColor="White" Margin="0,80,0,0" >
+                            <Label x:Name="label3" FontFamily="{StaticResource NormalFont}" TextColor= "white"  FontAttributes="Italic,Bold"  FontSize="18"   HorizontalTextAlignment="Center" HorizontalOptions="Center"
+                               Text="Cieľom predmetu je oboznámiť študentov s metódami a algoritmami výpočtovej inteligencie a ich využitím v oblasti aplikácií informačno-komunikačných technológií v mechatronike."></Label>
+                        </Frame>
+                        <Label FontFamily="{StaticResource NormalFont}" x:Name="label4" Margin="0,150,0,15" TextColor= "#BC2D19"  FontAttributes="Italic,Bold"  FontSize="20" Text="Marcel Boldiš"  HorizontalTextAlignment="Center" VerticalTextAlignment="End"></Label>
+                    </StackLayout>
+                </Grid>
+            </ContentPage.Content>
+        </ContentPage>
+    </MasterDetailPage.Detail>
+
+</MasterDetailPage>

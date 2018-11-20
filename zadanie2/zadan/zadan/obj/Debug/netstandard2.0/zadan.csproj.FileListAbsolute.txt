@@ -1,0 +1,16 @@
+C:\Users\Marcel\Documents\MArcEL\skola\7.semester\IMS\zadan\zadan\zadan\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Marcel\Documents\MArcEL\skola\7.semester\IMS\zadan\zadan\zadan\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Marcel\Documents\MArcEL\skola\7.semester\IMS\zadan\zadan\zadan\obj\Debug\netstandard2.0\zadan.csproj.CoreCompileInputs.cache
+C:\Users\Marcel\Documents\MArcEL\skola\7.semester\IMS\zadan\zadan\zadan\obj\Debug\netstandard2.0\zadan.AssemblyInfoInputs.cache
+C:\Users\Marcel\Documents\MArcEL\skola\7.semester\IMS\zadan\zadan\zadan\obj\Debug\netstandard2.0\zadan.AssemblyInfo.cs
+C:\Users\Marcel\Documents\MArcEL\skola\7.semester\IMS\zadan\zadan\zadan\obj\Debug\netstandard2.0\zadan.csprojAssemblyReference.cache
+C:\Users\Marcel\Documents\MArcEL\skola\7.semester\IMS\zadan\zadan\zadan\bin\Debug\netstandard2.0\zadan.deps.json
+C:\Users\Marcel\Documents\MArcEL\skola\7.semester\IMS\zadan\zadan\zadan\bin\Debug\netstandard2.0\zadan.dll
+C:\Users\Marcel\Documents\MArcEL\skola\7.semester\IMS\zadan\zadan\zadan\bin\Debug\netstandard2.0\zadan.pdb
+C:\Users\Marcel\Documents\MArcEL\skola\7.semester\IMS\zadan\zadan\zadan\obj\Debug\netstandard2.0\zadan.dll
+C:\Users\Marcel\Documents\MArcEL\skola\7.semester\IMS\zadan\zadan\zadan\obj\Debug\netstandard2.0\zadan.pdb
+C:\Users\Marcel\Documents\MArcEL\skola\7.semester\IMS\zadan\zadan\zadan\obj\Debug\netstandard2.0\Page1.xaml.g.cs
+C:\Users\Marcel\Documents\MArcEL\skola\7.semester\IMS\zadan\zadan\zadan\obj\Debug\netstandard2.0\novinky.xaml.g.cs
+C:\Users\Marcel\Documents\MArcEL\skola\7.semester\IMS\zadan\zadan\zadan\obj\Debug\netstandard2.0\terminy.xaml.g.cs
+C:\Users\Marcel\Documents\MArcEL\skola\7.semester\IMS\zadan\zadan\zadan\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Marcel\Documents\MArcEL\skola\7.semester\IMS\zadan\zadan\zadan\obj\Debug\netstandard2.0\Schedule.xaml.g.cs
